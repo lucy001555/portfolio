@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #f8f6f3; padding: 40px; }
+.container { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 24px; padding: 40px; box-shadow: 0 10px 40px rgba(0,0,0,0.06); }
+h1 { color: #1a1a2e; font-size: 36px; margin-bottom: 20px; }
+.step { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid #eee; }
+.step:last-child { border-bottom: none; }
+.num { background: #1a1a2e; color: #fff; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
+.text h3 { color: #1a1a2e; margin-bottom: 5px; }
+.text p { color: #666; font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Tilda → Webflow Migration</h1>
+<div class="step">
+<div class="num">1</div>
+<div class="text"><h3>Export Tilda Content</h3><p>Extract HTML, CSS, images, and animations from Tilda.</p></div>
+</div>
+<div class="step">
+<div class="num">2</div>
+<div class="text"><h3>Rebuild in Webflow</h3><p>Recreate layout using Webflow Designer. Keep animations intact.</p></div>
+</div>
+<div class="step">
+<div class="num">3</div>
+<div class="text"><h3>Test & Optimize</h3><p>Check responsive, load speed, and cross-browser compatibility.</p></div>
+</div>
+<div class="step">
+<div class="num">4</div>
+<div class="text"><h3>Deploy</h3><p>Publish on Webflow hosting or connect custom domain.</p></div>
+</div>
+</div>
+</body>
+</html>

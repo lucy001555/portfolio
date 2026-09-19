@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #0d0d1a; padding: 40px; }
+.container { max-width: 900px; margin: 0 auto; background: #1a1a2e; border-radius: 24px; padding: 40px; }
+h1 { color: #00d4ff; font-size: 36px; margin-bottom: 30px; text-align: center; }
+.flow { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+.node { background: #2a2a4a; padding: 20px; border-radius: 16px; text-align: center; flex: 1; min-width: 150px; border: 1px solid #444; }
+.node h3 { color: #fff; font-size: 16px; margin-bottom: 5px; }
+.node p { color: #888; font-size: 13px; }
+.arrow { color: #00d4ff; font-size: 32px; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Zapier Automation Flow</h1>
+<div class="flow">
+<div class="node"><h3>New Order</h3><p>Shopify trigger</p></div>
+<div class="arrow">→</div>
+<div class="node"><h3>Add to CRM</h3><p>HubSpot action</p></div>
+<div class="arrow">→</div>
+<div class="node"><h3>Send Email</h3><p>Gmail action</p></div>
+<div class="arrow">→</div>
+<div class="node"><h3>Notify Slack</h3><p>Slack action</p></div>
+</div>
+</div>
+</body>
+</html>
